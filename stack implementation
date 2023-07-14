@@ -8,3 +8,11 @@ void push (int val,int n) //n is size of the stack
     stack[top] = val;   
     }   
 }   
+
+
+Deletion 
+begin   
+    if top = 0 then stack empty;   
+    item := stack(top);  
+    top = top - 1;  
+end;    
